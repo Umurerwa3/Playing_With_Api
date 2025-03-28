@@ -14,7 +14,7 @@ const OPEN_LIBRARY_API = 'https://openlibrary.org/search.json?q=';
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_APIKEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(express.static('public'));
 
