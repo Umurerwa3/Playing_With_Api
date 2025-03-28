@@ -6,6 +6,8 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 dotenv.config();
 
+global.fetch = require("node-fetch");
+
 const app = express();
 const PORT = 3000;
 const COUNTRY_API_BASE_URL = 'https://countryinfoapi.com/api/countries/name/';
