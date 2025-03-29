@@ -6,7 +6,11 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 dotenv.config();
 
-global.fetch = require("node-fetch");
+// global.fetch = require("node-fetch");
+
+import fetch, { Headers } from "node-fetch";
+global.fetch = fetch;
+global.Headers = Headers;
 
 const app = express();
 const PORT = 3000;
