@@ -8,9 +8,10 @@ dotenv.config();
 
 // global.fetch = require("node-fetch");
 
-import fetch, { Headers } from "node-fetch";
+const { fetch, Headers } = require("undici");
 global.fetch = fetch;
 global.Headers = Headers;
+
 
 const app = express();
 const PORT = 3000;
