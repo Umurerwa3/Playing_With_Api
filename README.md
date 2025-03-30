@@ -2,8 +2,9 @@
 
 Book Explorer is a web application that allows users to discover and explore books by leveraging powerful APIs. Built with a Node.js backend using Express, this project fetches book-related data and presents it in an accessible format.
 
-## Loom Video Presentation**: [Insert Loom video link here]  
-(Note: Set playback speed to 1x for the best viewing experience.)
+## Loom Video Presentation:
+ " https://vimeo.com/1070706390/753df47dfc?share=copy "
+(Note: Set playback speed to 1x  and in HD qualityfor the best viewing experience.)
 
 **Website Link**: [https://www.pitchou.tech](https://www.pitchou.tech)
 
@@ -57,7 +58,7 @@ That’s it—your local instance should now be running!
 
 ## B. Servers Deployment Process
 
-This section details deploying the app on two web servers (web-01 and web-02) with a load balancer (lb-01). Two bash scripts in the `deployment_files` directory—`setup_web-01_web-02` and `setup_lb-01`—automate this process. Steps are explained below.
+This section details deploying the app on two web servers (web-01 and web-02) with a load balancer (lb-01). Steps are explained below.
 
 ### 1. Web 01 and Web 02
 
